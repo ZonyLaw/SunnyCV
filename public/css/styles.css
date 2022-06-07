@@ -44,8 +44,12 @@
   margin-right: 10%;
 
 
-
 }
+
+.noBullet{
+  list-style-type: none;
+}
+
 
 .position{
   margin: 0 0 0 0;
