@@ -1,0 +1,18 @@
+.col-left {
+    background-color: #EA526F;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px;
+    border-radius: 5px;
+  
+
+}
+
+.col-right {
+    background-color: lightgrey;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0px 0px 20px;
+    /* justify-content: space-around; */
+    box-shadow: 10px 10px 20px;
+    border-radius: 5px;
+}

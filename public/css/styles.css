@@ -1,64 +1,49 @@
 
-  body {
-    background-color: #fff ;
-    font-family: sans-serif;
-    margin: 0 100px 0;
-  }
-
-  hr {
-    background-color: #fff;
-    border-style: dotted none none;
-    border-width: 3px;
-    width: 5%;
-  }
-
-
-  h1{
-    margin-top:0;
-    margin-bottom: 0;
-    /* font-size: 1.5rem; */
-
-  }
+  @import "components/avartar.css";
+  @import "components/flexbox.css";
+  
+ .banner {
+    
+    /* background-image: linear-gradient(to bottom right, #FF8A5B, rgb(75, 71, 73)); */
+    background-color: #FF8A5B;
+    height: 150px;
+    width: 83%;
+    margin: 0px 20px 0px 100px;
+    position:fixed;
+    top: 0;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5px;
+    align-items: left;
+   
+ }
 
 
+ .header-align {
+    flex-grow:1;
+ }
 
-.header {
-    background-color: #f5ba13;
-    /* margin: auto -16px; */
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
+ div .banner{  
+  display:flex;
+  justify-content: space-evenly;
+ }
 
+ .card-container{
+    display: flex;
+    
+    
+    margin: 20px 100px ;
+    padding: 150px 0px;
+    justify-content: space-between;
+    clear:both;
 
-.sidePanel{
-  background-color: #D8DCDB;
-  margin:20px;
-  padding: 10px 20px;
-  width: 150px;
-  text-align: right;
+ }
 
-}
+ .contact {
+    text-decoration: none;
+    background-color: rgb(38, 104, 226);
+    height: 20px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    color: darkgrey;
 
-.bodyArea{
-  padding: 10px 20px;
-  margin-right: 10%;
-
-
-}
-
-.noBullet{
-  list-style-type: none;
-}
-
-
-.position{
-  margin: 0 0 0 0;
-}
-
-  .center{
-    margin: 0 auto 0 auto;
-  }
-
-  .contact{
-    font-size: 100%;
-  }
+ }
