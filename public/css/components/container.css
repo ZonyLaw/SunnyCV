@@ -17,6 +17,7 @@
 }
 
 .card-container{
+ 
    display: flex;
    margin: 170px 150px ;
    padding: 1px 0px;
@@ -24,9 +25,9 @@
    clear:both;
 }
 
-/* .whole-container{
-   width: 800px;
-} */
+.whole-container{
+   background-color: #f0ebeb;
+}
 
 .banner {
    /* background-image: linear-gradient(to bottom right, #FF8A5B, rgb(75, 71, 73)); */
